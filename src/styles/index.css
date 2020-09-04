@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #545454;
+    font-family: sans-serif;
+}
+
+.auth-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.auth-container form input{
+    width: 100%;
+}
+
+input {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #b1b1b1;
+    background-color: none;
+    font-size: 20px;
+}
+
+.button {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #545454;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    transition: 500ms all;
+    cursor: pointer;
+}
+
+.login-signup-button {
+    width: 100%;
+    
+}
+
+.details-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabs {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.tab {
+    border: 1px solid #b1b1b1;
+    padding: 10px;
+    color: white;
+    background-color: #545454;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-weight: 600;
+}
+
+.auth-container .register {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-container .register .new-register {
+    font-weight: 600;
+    color: red;
+}
+
+.signup-form-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.signup-form-dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-form form input {
+    padding: 10px 20px;
+}
+
+.error {
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+}
+
+form {
+    position: relative;
+}
+
+.account-numbers-added {
+    position: absolute;
+    left: -230px;
+}
+
+.acc_no {
+    display: block;
+    margin: 5px;
+}
+
+.remove-acc-no {
+    cursor: pointer;
+    height: 100%;
+    border-radius: 5px;
+    color: red;
+    font-weight: 600;
+}
+
+.other-account-numbers {
+    display: flex;
+    align-items: center;
+}
+
+.close-form {
+    position: absolute;
+    color: red;
+    font-weight: 600;
+    right: 20px;
+    font-size: 40px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.transaction-columns {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.transaction-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.transaction-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid #b1b1b1;
+    background-color: none;
+    font-size: 15px;
+}
+
+.transaction-details-container {
+    padding: 10px;
+}
+
+.transaction-details-header, .transaction-record-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    grid-column-gap: 20px;
+    margin: 10px 0px;
+    border: 1px solid #545454;
+    padding: 15px;
+}
+
+.loan-record-entry img {
+    width: 100px;
+    height: 50px;
+}
+
+.loan-record-entry canvas{
+    width: 100px !important;
+    height: 50px !important;
+    display: unset !important;
+}
+
+.loan-record {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    grid-column-gap: 20px;
+    margin: 10px 0px;
+    background-color: #545454;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    align-items: center;
+}
+
+.capital-details-header {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    grid-column-gap: 20px;
+    margin: 10px 0px;
+    border: 1px solid #545454;
+    padding: 15px;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.upload-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capital-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.capital-details-container {
+    padding: 10px;
+    flex: 2;
+}
+
+.upload-form form img {
+    width: 200px;
+}
+
+.upload-form canvas {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.react-pdf__Page__textContent {
+    width: unset !important;
+    height: unset !important;
+}
+
+.filter-and-sort {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 40px;
+}
+
+.header {
+    background-color: #545454;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.details {
+    width: 100%;
+}
+
+.transaction-record-container {
+    background-color: #545454;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.transaction-details-container  {
+    flex: 2;
+}
+
+.transaction-form-title, .upload-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.transaction-form form select {
+    width: 100%;
+}
+
+.upload-form form select, .upload-form form input {
+    width: 100%;
+}
+
+.register-here {
+    color: #fff;
+}

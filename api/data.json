@@ -1,0 +1,49 @@
+{   "usedUsernames": ["david_warner"],
+    "users": {
+        "david_warner": {
+            "id": "#12312312312",
+            "account_number": "34567665343",
+            "other_account_numbers": ["45676564651234", "123444555666", "987654334567", "909090808080"],
+            "username": "david_warner",
+            "password": "$2a$08$xISuxSlEGzjYWo/3rY5/fepwGVZNv9db5pEJX.v7YIORimZV5heD6",
+            "email": "david@gmail.com",
+            "mobile": "7676767676",
+            "account_balance": "433444",
+            "transactions_made": [{
+                    "date": "23-8-2020",
+                    "beneficiary_name": "Steve Smith",
+                    "payment_type": "Debit Card",
+                    "amount": "1120",
+                    "account_number": "565678901234",
+                    "trans_id": "45467656776"
+                },
+                {
+                    "date": "31-8-2020",
+                    "beneficiary_name": "Aaron Finch",
+                    "payment_type": "Netbanking",
+                    "amount": "2256",
+                    "account_number": "434545345421",
+                    "trans_id": "4546723423442776"
+                },
+                {
+                    "date": "31-8-2020",
+                    "beneficiary_name": "Aaron Finch",
+                    "payment_type": "Credit Card",
+                    "amount": "2251",
+                    "account_number": "434545345421",
+                    "trans_id": "4556433473442776"
+                },
+                {
+                    "date": "01-9-2020",
+                    "beneficiary_name": "Aaron Finch",
+                    "payment_type": "Credit Card",
+                    "amount": "225",
+                    "account_number": "434545345421",
+                    "trans_id": "456456893473442776"
+                }
+
+            ],
+            "loan_applications": []
+        }
+    }
+}
